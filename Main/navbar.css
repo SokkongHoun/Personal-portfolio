@@ -4,14 +4,13 @@
   border-width: 1px;
   border-color: rgba(136, 137, 137, 0.75);
 }
-
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(9, 9, 9);
-  color: var(--neu-bg);
   padding: 20px;
   margin-top: 100px;
+  text-align: center;
+}
+.footer p {
+  color: var(--neu-bg);
+  margin-bottom: 0;
 }
