@@ -113,6 +113,9 @@ hr {
   box-shadow: var(--box-shadow);
   height: auto;
 }
+.work-exp-text {
+  text-align: center;
+}
 /* Media query for screens below 770px */
 @media (max-width: 770px) {
   .work-exp-text {
