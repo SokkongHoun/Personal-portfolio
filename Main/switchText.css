@@ -1,29 +1,29 @@
 @keyframes bg {
   0% {
-    background-size: 0 3px, 3px 0, 0 3px, 3px 0;
+    background-size: 0 1px, 1px 0, 0 1px, 1px 0;
   }
   25% {
-    background-size: 100% 3px, 3px 0, 0 3px, 3px 0;
+    background-size: 100% 1px, 1px 0, 0 1px, 1px 0;
   }
   50% {
-    background-size: 100% 3px, 3px 100%, 0 3px, 3px 0;
+    background-size: 100% 1px, 1px 100%, 0 1px, 1px 0;
   }
   75% {
-    background-size: 100% 3px, 3px 100%, 100% 3px, 3px 0;
+    background-size: 100% 1px, 1px 100%, 100% 1px, 1px 0;
   }
   100% {
-    background-size: 100% 3px, 3px 100%, 100% 3px, 3px 100%;
+    background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
   }
 }
 .running-border-container {
   background-repeat: no-repeat;
-  background-image: linear-gradient(to right, #c9c9c9 100%, #c9c9c9 100%),
-    linear-gradient(to bottom, #c9c9c9 100%, #c9c9c9 100%),
-    linear-gradient(to right, #c9c9c9 100%, #c9c9c9 100%),
-    linear-gradient(to bottom, #c9c9c9 100%, #c9c9c9 100%);
-  background-size: 100% 3px, 3px 100%, 100% 3px, 3px 100%;
+  background-image: linear-gradient(to right, black 100%, black 100%),
+    linear-gradient(to bottom, black 100%, black 100%),
+    linear-gradient(to right, black 100%, black 100%),
+    linear-gradient(to bottom, black 100%, black 100%);
+  background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
   background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-  animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
+  animation: bg 0.4s cubic-bezier(0.19, 1, 0.22, 1) 1;
   animation-play-state: paused;
   padding: 10px;
 }
